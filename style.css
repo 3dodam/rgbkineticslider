@@ -1,0 +1,21 @@
+@charset "UTF-8";
+*{margin: 0; padding: 0;}
+
+section {
+  position: relative;
+  height: 100vh;
+}
+section .rgb {
+  position: absolute;
+  height: 880px; width: 100%;
+}
+#rgbKineticSlider canvas {position: absolute;}
+
+nav .main-nav {
+  position: absolute;
+  top: 50%;
+  text-decoration: none;
+  color: #fff;
+}
+nav .prev {left: 10%;}
+nav .next {right: 10%;}
